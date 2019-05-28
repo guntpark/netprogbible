@@ -1,5 +1,5 @@
-PROGRAM = client 
-OBJS 	= client.o
+PROGRAM = daemon 
+OBJS 	= daemon.o
 SRCS	= $(OBJS:%.o=%.c)
 CLFAGS 	= -g -Wall
 LDFLAGS = 
